@@ -1,0 +1,22 @@
+body{
+    background-color: #3fb9c6ed !important;
+}
+.form{
+    background-color:#13090966;
+    width: 77%;
+    margin-left: 12%;
+    margin-top: 5%;
+    padding: 4%;
+}
+.head{
+    background-color:blue;
+}
+tbody
+{
+    counter-reset: Serial;
+}
+tbody tr td:first-child:before
+{
+  counter-increment: Serial; 
+  content: counter(Serial); 
+}
